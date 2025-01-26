@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const uri = "mongodb://localhost:27017/user"; //Database name is "user"
+const uri = "mongodb+srv://jpr6509:HoneyBuns2024@cluster0.p35av.mongodb.net/user"; //Database name is "user"
 
 // Connect to MongoDB using Mongoose
 async function connectDB() {
